@@ -1,0 +1,23 @@
+[
+  {
+    "productName": "Google Pixel 9",
+    "productPrice": "$1000",
+    "productDescription": "This is pixel series of google",
+    "category": "smartphone",
+    "productId": 1
+  },
+  {
+    "productName": "Nothing Phone",
+    "productPrice": "$800",
+    "productDescription": "This is a newly launched nothing smartphone of nothing phone series",
+    "category": "smartphone",
+    "productId": 2
+  },
+  {
+    "productName": "Iphone 16e",
+    "productPrice": "$1200",
+    "productDescription": "This is 16 series of iphone",
+    "category": "smartphone",
+    "productId": 3
+  }
+]
