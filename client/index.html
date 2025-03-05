@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <h2>Logo</h2>
+            </div>
+            <div id="menu-list">
+                <div class="menu-items">
+                    <p>Dashboard</p>
+                </div>
+                <div class="menu-items">
+                    <p>Customer</p>
+                </div>
+                <div class="menu-items">
+                    <p>
+                        Product
+                    </p>
+                </div>
+                <div class="menu-items">
+                    <p>
+                        Order
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="left"><h1>Product</h1></div>
+            <div id="right">
+                <button id="add-product-button">Add Product</button>
+            </div>
+        </div>
+        <div id="product-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            S.No.
+                        </th>
+                        <th>
+                            Product Name
+                        </th>
+                        <th id="description">
+                            Description
+                        </th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="product-table-body"></tbody>
+            </table>
+        </div>
+        <div id="add-product-modal">
+            <dialog open id="modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia debitis minus tenetur distinctio. Necessitatibus rerum excepturi in tenetur esse. Ipsum tempore illum perspiciatis nemo eius molestiae, modi nisi dolores incidunt.</dialog>
+        </div>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

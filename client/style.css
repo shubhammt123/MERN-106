@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    height: 98vh;
+}
+
+#container{
+    margin: 10px 20px;
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #aee0f5;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 0px #b9b9b9;
+    height: 10%;
+}
+
+#menu-list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-items{
+    cursor: pointer;
+}
+
+.menu-items:hover{
+    color: rgb(79, 79, 79);
+}
+
+#middle{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+
+}
+
+#add-product-button{
+    padding: 10px;
+    border: 1px solid skyblue;
+    background-color: transparent;
+    color: skyblue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #c9c9c9;
+    outline: none;
+    cursor: pointer;
+}
+
+#add-product-button:active{
+    background-color: skyblue;
+    color: white;
+}
+
+#product-table{
+    height: 70%;
+    overflow: auto;
+}
+
+table{
+    text-align: center;
+    border: 1px solid grey;
+}
+
+thead{
+    background-color: skyblue;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+ tbody tr:nth-child(2n+1){
+    background-color: #e4e4e4;
+}
+
+th{
+    width: 13vw;
+    padding: 10px;
+}
+
+#description{
+    width: 25vw;
+}
+
+td{
+    padding: 10px;
+}
+
+.update-button{
+    padding: 5PX;
+    background-color: rgb(87, 87, 247);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #c9c9c9;
+    margin: 0 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.delete-button{
+    padding: 5PX;
+    background-color: rgb(231, 73, 73);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #c9c9c9;
+    margin: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#add-product-modal{
+    width: 97vw;
+    height: 100vh;
+    background-color: #4848488c;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: none;
+
+}

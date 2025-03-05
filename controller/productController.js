@@ -52,7 +52,15 @@ function getAllProducts (req,res){
 }
 
  function deleteProduct(req,res){
-    res.send("Delete Product Api");
+    console.log(req.params.id);
+    let productData = readData();
+    let filteredData = productData.filter((item)=>{
+        console.log(item.productId)
+        return item.productId !== +req.params.id
+    });
+    console.log( "filtered Products", filteredData)
+    writeData(filteredData);
+    res.end("Product Deleted");
 }
 
 module.exports = {getAllProducts , getOneProduct , addProduct , updateProduct , deleteProduct}
