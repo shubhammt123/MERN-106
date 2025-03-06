@@ -28,7 +28,7 @@ function getAllProducts (req,res){
  function addProduct(req,res){
     let existingData = readData();
     // req.body.productId = existingData.length+1;
-    let updatedData = {...req.body , productId : existingData.length+1};
+    let updatedData = {...req.body , productId :  Number(Date.now())};
     existingData.push(updatedData);
     writeData(existingData);
     res.send({message : "Product Added" , product : updatedData});
@@ -55,10 +55,8 @@ function getAllProducts (req,res){
     console.log(req.params.id);
     let productData = readData();
     let filteredData = productData.filter((item)=>{
-        console.log(item.productId)
         return item.productId !== +req.params.id
     });
-    console.log( "filtered Products", filteredData)
     writeData(filteredData);
     res.end("Product Deleted");
 }

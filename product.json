@@ -1,86 +1,30 @@
 [
   {
-    "productName": "Google Pixel 9",
-    "productPrice": "$1000",
-    "productDescription": "This is pixel series of google",
-    "category": "smartphone",
+    "productName": "Google Pixel",
+    "productDescription": "This is a smartphone from pixel series of google",
+    "productPrice": "10000",
+    "category": "Smartphone",
     "productId": 1
   },
   {
-    "productName": "Nothing Phone",
-    "productPrice": "$800",
-    "productDescription": "This is a newly launched nothing smartphone of nothing phone series",
-    "category": "smartphone",
-    "productId": 2
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 3
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
+    "productName": "Google Pixel",
+    "productDescription": "This is a smartphone from pixel series of google",
+    "productPrice": "10000",
+    "category": "Smartphone",
     "productId": 4
   },
   {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 5
+    "productName": "Google Pixel",
+    "productDescription": "This is a smartphone from pixel series of google",
+    "productPrice": "10000",
+    "category": "Smartphone",
+    "productId": 1741247095611
   },
   {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 6
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 7
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 8
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 9
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 10
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 11
-  },
-  {
-    "productName": "Iphone 16",
-    "productPrice": "$1000",
-    "productDescription": "This is 16 series of iphone",
-    "category": "smartphone",
-    "productId": 12
+    "productName": "Google Pixel",
+    "productDescription": "This is a smartphone from pixel series of google",
+    "productPrice": "10000",
+    "category": "Smartphone",
+    "productId": 1741247110482
   }
 ]

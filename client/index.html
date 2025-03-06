@@ -58,10 +58,37 @@
                 <tbody id="product-table-body"></tbody>
             </table>
         </div>
-        <div id="add-product-modal">
-            <dialog open id="modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia debitis minus tenetur distinctio. Necessitatibus rerum excepturi in tenetur esse. Ipsum tempore illum perspiciatis nemo eius molestiae, modi nisi dolores incidunt.</dialog>
-        </div>
         
+        
+    </div>
+    <div id="add-product-modal">
+        <dialog open id="modal">
+            <div id="modal-container">
+                <div id="modal-header">
+                    <h2>Add Product</h2>
+                    <button id="close-modal-button">X</button>
+                </div>
+                <div id="add-product-container">
+                    <form id="add-product-from">
+                        <div class="add-product-input-container">
+                            <input type="text" placeholder="Product Name"  class="add-product-input" id="productName">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Product Price" class="add-product-input" id="productPrice">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Product Description" class="add-product-input" id="productDescription">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Category" class="add-product-input" id="category">
+                        </div>
+                        <div id="add-product-button-container">
+                            <button type="submit" id="add-product-submit-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </dialog>
     </div>
 
 
